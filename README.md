@@ -25,3 +25,16 @@ In `balatro/source/`, with a venv that has `psd-tools`, `pillow` and `numpy`:
 
 `build.py` deletes the layers it does not use: if you run it again, run
 `convert.py` first.
+
+## License
+
+The licence depends on what each file is:
+
+- **The scripts** (`*/source/*.py`) are free software under the
+  [GNU General Public License v3.0 or later](LICENSE), like the app.
+- **The pack contents** (templates, layers, fonts, symbols, sample cards) are
+  **not** covered by that licence: each pack keeps the terms of its authors,
+  listed in its `CREDITS.md` (for Balatro, `balatro/CREDITS.md`). Do not reuse
+  them outside what those terms allow.
+- *Magic: The Gathering* names, card text and symbols belong to Wizards of the
+  Coast.
